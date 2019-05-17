@@ -1,7 +1,7 @@
 package zipcodepkg;
 
 /* Class for Range of Zipcode [lowerbound, upperbound] defined*/
-import java.util.*;
+
 
 class Range {
 
@@ -35,17 +35,8 @@ class Range {
       
     }
     
-}// end of Range Inner class
+}// end of Range  class
 
-//Inner class
-class RangeComparator implements Comparator<Range>
-{
-   public int compare(Range r1, Range r2)
-   {
-       return r1.getLowerBound() - r2.getLowerBound(); 
-   }
-   
-}
 
 
 
